@@ -19,9 +19,9 @@ namespace Halorealm.Items.Vulcrain
             item.melee = true;
             item.width = 32;
             item.height = 28;
-            item.useTime = 20;
-            item.useAnimation = 20;
-            item.axe = 11;             
+            item.useTime = 21;
+            item.useAnimation = 21;
+            item.axe = 11;
             item.useStyle = 1;
             item.knockBack = 5;
             item.value = Item.buyPrice(0, 5, 90, 0);
@@ -34,7 +34,7 @@ namespace Halorealm.Items.Vulcrain
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod.ItemType("VulcrainBar"), 9);
-            recipe.AddIngredient(ItemID.Wood, 3); 
+            recipe.AddIngredient(ItemID.Wood, 3);
             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
             recipe.AddRecipe();
