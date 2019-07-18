@@ -24,7 +24,7 @@ namespace Halorealm.Items.Vulcrain
             item.useAnimation = 21;
             item.useStyle = 1;          
             item.knockBack = 4;         
-            item.value = Item.buyPrice(0, 5, 0, 0);        
+            item.value = Item.sellPrice(0, 0, 20, 0);        
             item.rare = 2;            
             item.UseSound = SoundID.Item1;      
             item.autoReuse = true;

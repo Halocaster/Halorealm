@@ -17,7 +17,7 @@ namespace Halorealm.Items.Vulcrain
             item.width = 30;
             item.height = 24;
             item.maxStack = 999;
-            item.value = Item.buyPrice(0, 0, 25, 0);
+            item.value = Item.sellPrice(0, 0, 25, 0);
             item.rare = 3;
         }
 
