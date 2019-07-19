@@ -19,7 +19,7 @@ namespace Halorealm.Items.Vulcrain
 
             public override void SetDefaults()
             {
-                item.damage = 25;
+                item.damage = 27;
                 item.magic = true;
                 item.noMelee = true;
                 item.mana = 8;
@@ -52,8 +52,6 @@ namespace Halorealm.Items.Vulcrain
                 recipe.SetResult(this);
                 recipe.AddRecipe();
             }
-
-            //add Frostburn debuff later
         }
     }
 }
