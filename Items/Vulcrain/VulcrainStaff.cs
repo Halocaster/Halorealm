@@ -33,7 +33,7 @@ namespace Halorealm.Items.Vulcrain
                 item.knockBack = 7;
                 item.value = Item.sellPrice(0, 0, 80, 0);
                 item.rare = 2;
-                item.UseSound = SoundID.Item20;
+                item.UseSound = SoundID.Item20; //change
                 item.autoReuse = true;
                 item.useTurn = true;
             }
