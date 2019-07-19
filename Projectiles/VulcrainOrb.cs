@@ -29,7 +29,7 @@ namespace Halorealm.Projectiles
 
         public override void AI()
         {
-            projectile.light = 0.5f; 
+            Lighting.AddLight(projectile.Center, 0.215f, 0.30f, 0.90f);
             projectile.alpha = 150; 
             projectile.rotation += (float)projectile.direction * 0.5f;
             projectile.velocity.Y += projectile.ai[0];
