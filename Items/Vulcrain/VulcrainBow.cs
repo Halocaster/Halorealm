@@ -20,12 +20,12 @@ namespace Halorealm.Items.Vulcrain
             item.ranged = true;
             item.noMelee = true;
             item.useAmmo = AmmoID.Arrow;
-            item.shoot = 10; 
+            item.shoot = 10; //change..?
             item.shootSpeed = 18f; 
             item.width = 32;
             item.height = 32;
-            item.useTime = 20;
-            item.useAnimation = 20;
+            item.useTime = 23;
+            item.useAnimation = 23;
             item.useStyle = 5;
             item.knockBack = 2;
             item.value = Item.sellPrice(0, 0, 16, 0);
