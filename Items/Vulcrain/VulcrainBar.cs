@@ -21,15 +21,13 @@ namespace Halorealm.Items.Vulcrain
             item.rare = 3;
         }
 
-        /*
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(mod.ItemType("VulcrainOre"), 3);
+            recipe.AddIngredient(mod.ItemType("VulcrainOre"), 4);
             recipe.AddTile(TileID.Furnaces);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
-        */
     }
 }
