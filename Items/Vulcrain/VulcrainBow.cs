@@ -1,4 +1,5 @@
-﻿using Terraria;
+﻿using Microsoft.Xna.Framework;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -9,7 +10,7 @@ namespace Halorealm.Items.Vulcrain
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Vulcrain Bow");
-            Tooltip.SetDefault("");
+            Tooltip.SetDefault("Wooden arrows turns into frostburn arrows");
         }
 
         public override void SetDefaults()
@@ -42,6 +43,13 @@ namespace Halorealm.Items.Vulcrain
             recipe.AddRecipe();
         }
 
-        //add Frostburn debuff later
+        public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
+        {
+            if (type == ProjectileID.WoodenArrowFriendly)
+            {
+                type = ProjectileID.FrostburnArrow; 
+            }
+            return true;
+        }
     }
 }
