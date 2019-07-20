@@ -29,6 +29,7 @@ namespace Halorealm.Items.Vulcrain
             item.UseSound = SoundID.Item1;      
             item.autoReuse = true;
             item.useTurn = true;
+            item.scale += 0.25f;
         }
 
         public override void AddRecipes()
