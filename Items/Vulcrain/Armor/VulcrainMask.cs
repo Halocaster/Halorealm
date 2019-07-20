@@ -1,6 +1,4 @@
-﻿//add sprite
-
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -50,7 +48,6 @@ namespace Halorealm.Items.Vulcrain.Armor
             recipe.AddIngredient(mod.ItemType("VulcrainBar"), 25);
             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
-            recipe.AddRecipe();
         }
     }
 }
