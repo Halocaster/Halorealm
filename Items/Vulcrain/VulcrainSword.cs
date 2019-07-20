@@ -18,8 +18,8 @@ namespace Halorealm.Items.Vulcrain
         {
             item.damage = 14;           
             item.melee = true;         
-            item.width = 32;           
-            item.height = 32;          
+            item.width = 38;           
+            item.height = 38;          
             item.useTime = 23;          
             item.useAnimation = 21;
             item.useStyle = 1;          
