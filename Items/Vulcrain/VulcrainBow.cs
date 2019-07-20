@@ -1,6 +1,4 @@
-﻿//add sprite
-
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -16,12 +14,12 @@ namespace Halorealm.Items.Vulcrain
 
         public override void SetDefaults()
         {
-            item.damage = 13;
+            item.damage = 16;
             item.ranged = true;
             item.noMelee = true;
             item.useAmmo = AmmoID.Arrow;
-            item.shoot = 10; //change..?
-            item.shootSpeed = 18f; 
+            item.shoot = 1; //change..?
+            item.shootSpeed = 9f; 
             item.width = 32;
             item.height = 32;
             item.useTime = 23;

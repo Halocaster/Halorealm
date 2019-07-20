@@ -16,7 +16,7 @@ namespace Halorealm.Items.Vulcrain
 
         public override void SetDefaults()
         {
-            item.damage = 14;           
+            item.damage = 21;           
             item.melee = true;         
             item.width = 38;           
             item.height = 38;          

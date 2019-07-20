@@ -33,7 +33,7 @@ namespace Halorealm.Items.Vulcrain
             item.rare = 2;
             item.UseSound = SoundID.Item20; //change
             item.autoReuse = true;
-            item.useTurn = tfalse;
+            item.useTurn = false;
         }
 
         public override void AddRecipes()
