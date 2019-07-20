@@ -44,6 +44,7 @@ namespace Halorealm.Items.Vulcrain
                 recipe.AddIngredient(mod.ItemType("VulcrainBar"), 12);
                 recipe.AddIngredient(ItemID.Ruby, 2);
                 recipe.AddIngredient(ItemID.Diamond, 2);
+                recipe.AddIngredient(ItemID.Amber, 2);
                 recipe.AddIngredient(ItemID.Emerald, 2);
                 recipe.AddIngredient(ItemID.Sapphire, 2);
                 recipe.AddIngredient(ItemID.Topaz, 2);
