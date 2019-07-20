@@ -13,17 +13,17 @@ namespace Halorealm.Items.Vulcrain
             public override void SetStaticDefaults()
             {
                 DisplayName.SetDefault("Vulcrain Staff");
-                Tooltip.SetDefault("");
+                Tooltip.SetDefault("'It is not a spear.'");
                 Item.staff[item.type] = true;
             }
 
             public override void SetDefaults()
             {
-                item.damage = 27;
+                item.damage = 35; //change if too op
                 item.magic = true;
                 item.noMelee = true;
-                item.mana = 8;
-                item.shoot = mod.ProjectileType("VulcrainOrb"); //add projectile later
+                item.mana = 9;
+                item.shoot = mod.ProjectileType("VulcrainOrb");
                 item.shootSpeed = 18f;  //change if the projectile moves too fast or too slow :)
                 item.width = 32;
                 item.height = 32;
