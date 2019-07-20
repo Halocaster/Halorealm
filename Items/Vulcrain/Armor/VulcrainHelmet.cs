@@ -36,8 +36,12 @@ namespace Halorealm.Items.Vulcrain.Armor
 
         public override void UpdateArmorSet(Player player)
         {
-            player.setBonus = "Attacks inflict mild frostburn";
-            player.AddBuff(BuffID.Frostburn, 1);
+            player.setBonus = "5% increased damage" +
+                "3+ defense " +
+                "Increased life regeneration";
+            player.allDamage += 0.05f;
+            player.statDefense += 3;
+            player.lifeRegen += 10;
         }
 
         public override void AddRecipes()
