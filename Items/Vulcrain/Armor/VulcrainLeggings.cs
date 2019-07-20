@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Halorealm.Items.Vulcrain
+namespace Halorealm.Items.Vulcrain.Armor
 {
     [AutoloadEquip(EquipType.Legs)]
     public class VulcrainLeggings : ModItem

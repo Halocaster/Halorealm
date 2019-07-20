@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Halorealm.Items.Vulcrain
+namespace Halorealm.Items.Vulcrain.Armor
 {
     [AutoloadEquip(EquipType.Body)]
     public class VulcrainBreastplate : ModItem
