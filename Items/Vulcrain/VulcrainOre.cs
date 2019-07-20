@@ -23,8 +23,8 @@ namespace Halorealm.Items.Vulcrain
             item.maxStack = 999;
             item.consumable = true;
             item.createTile = mod.TileType("VulcrainOre");
-            item.width = 12;
-            item.height = 12;
+            item.width = 16;
+            item.height = 16;
             item.value = Item.sellPrice(0, 0, 20, 0);
         }
     }

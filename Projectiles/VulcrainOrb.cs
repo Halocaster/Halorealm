@@ -11,6 +11,7 @@ namespace Halorealm.Projectiles
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Vulcrain Orb");
+            Main.projFrames[projectile.type] = 3;
         }
 
         public override void SetDefaults()
