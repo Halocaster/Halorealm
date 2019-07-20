@@ -17,10 +17,10 @@ namespace Halorealm.Projectiles
         public override void SetDefaults()
         {
             projectile.magic = true;
-            projectile.width = 10;
-            projectile.height = 10;
+            projectile.width = 12;
+            projectile.height = 2;
             projectile.aiStyle = 29;  //change later
-            aiType = ProjectileID.DiamondBolt; //change later
+            aiType = ProjectileID.SapphireBolt; //change later
             projectile.timeLeft = 3600;
             projectile.tileCollide = true;
             projectile.ignoreWater = true;
@@ -31,7 +31,7 @@ namespace Halorealm.Projectiles
         public override void AI()
         {
             Lighting.AddLight(projectile.Center, 0.215f, 0.30f, 0.90f);
-            projectile.alpha = 150; 
+            projectile.alpha = 255; 
             projectile.rotation += (float)projectile.direction * 0.5f;
             projectile.velocity.Y += projectile.ai[0];
             if (Main.rand.NextBool(3))
@@ -42,7 +42,7 @@ namespace Halorealm.Projectiles
 
         public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
         {
-            target.AddBuff(BuffID.Frostburn, 2);
+            target.AddBuff(BuffID.Frostburn, 60);
         }
 
         //add OnTileCollide projectile explosion later
