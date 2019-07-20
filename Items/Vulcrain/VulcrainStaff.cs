@@ -25,8 +25,8 @@ namespace Halorealm.Items.Vulcrain
                 item.mana = 9;
                 item.shoot = mod.ProjectileType("VulcrainOrb");
                 item.shootSpeed = 18f;  //change if the projectile moves too fast or too slow :)
-                item.width = 32;
-                item.height = 32;
+                item.width = 46;
+                item.height = 46;
                 item.useTime = 15; //change
                 item.useAnimation = 15;  //change
                 item.useStyle = 5;
