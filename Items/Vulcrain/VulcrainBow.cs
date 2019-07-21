@@ -20,7 +20,7 @@ namespace Halorealm.Items.Vulcrain
             item.noMelee = true;
             item.useAmmo = AmmoID.Arrow;
             item.shoot = 1; //change..?
-            item.shootSpeed = 9f; 
+            item.shootSpeed = 10f; 
             item.width = 32;
             item.height = 32;
             item.useTime = 23;
