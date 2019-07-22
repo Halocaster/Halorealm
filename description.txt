@@ -1,6 +1,6 @@
 Halorealm is a brand new mod that offers a variety of powerful items and strong enemies to kill.
 
-This mod is currently W.I.P. and unfinished. Some of the items does not have 'recipes' or 'buy values'.
+This mod is currently W.I.P. and unfinished. Some of the items does not have 'recipes', 'AIs' or 'buy values'.
 I will add new items and eventually, enemies every day, but without sprites. I'm looking for someone to help me make this mod a reality.
 I do not recommend to download this mod until it is released. (Some of the sprites are placeholders)
 
