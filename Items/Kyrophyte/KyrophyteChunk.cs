@@ -25,9 +25,10 @@ namespace Halorealm.Items.Kyrophyte
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.JungleSpores, 3);
+            recipe.AddIngredient(ItemID.BeeWax, 3);
             recipe.AddIngredient(ItemID.Vine, 2);
-            // recipe.AddIngredient(ItemID.GoldOre, 2);
             recipe.AddIngredient(ItemID.Stinger);
+            // recipe.AddIngredient(ItemID.GoldOre, 2);
             recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();
