@@ -15,9 +15,9 @@ namespace Halorealm.Items.Vulcrain
         public override void SetDefaults()
         {
             item.width = 30;
-            item.height = 24;
+            item.height = 28;
             item.maxStack = 999;
-            item.value = Item.sellPrice(0, 0, 25, 0);
+            item.value = Item.sellPrice(0, 1, 20, 0);
             item.rare = 3;
             item.accessory = true;
         }

@@ -28,5 +28,13 @@ namespace Halorealm
                 target.AddBuff(BuffID.Frostburn, 120);
             }
         }
+
+        public override void ModifyHitNPCWithProj(Projectile proj, NPC target, ref int damage, ref float knockback, ref bool crit, ref int hitDirection)
+        {
+            if (vulcrainCharm)
+            {
+                target.AddBuff(BuffID.Frostburn, 120);
+            }
+        }
     }
 }
