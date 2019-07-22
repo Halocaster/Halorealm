@@ -22,10 +22,10 @@ namespace Halorealm.Items.Vulcrain
             item.accessory = true;
         }
 
-        /*public override void UpdateAccessory(Player player, bool hideVisual)
+        public override void UpdateAccessory(Player player, bool hideVisual)
         {
             player.GetModPlayer<HalorealmPlayer>().vulcrainCharm = true;
-        }*/
+        }
 
         public override void AddRecipes()
         {

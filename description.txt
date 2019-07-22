@@ -4,8 +4,12 @@ This mod is currently W.I.P. and unfinished. Some of the items does not have 're
 I will add new items and eventually, enemies every day, but without sprites. I'm looking for someone to help me make this mod a reality.
 I do not recommend to download this mod until it is released. (Some of the sprites are placeholders)
 
-Latest Changelogs: (sentences with '*' means not added yet to the lastest version)
-July 20, 2019:
+Latest Changelogs: 
+v0.4.1
+- Changed the Vulcrain armor's tooltips
+- Added Vulcrain Charm
+
+v0.4.0
 - Buffed several weapons
 - Updated old placeholder sprites
 - Made new Vulcrain item sprites (armor sprites are placeholders)
@@ -15,21 +19,3 @@ July 20, 2019:
 - Vulcrain Bow now turns wooden arrows into frostburn arrows
 - Scaled the Vulcrain Sword
 - Changed the set bonuses of the Vulcrain Armor
-- Added Kyrophyte Chunk*
-
-July 19, 2019:
-- Changed some of the Vulcrain Staff's projectile code
-- Buffed the Vulcrain Staff
-- Added Vulcrain Ore (tile code not added yet)
-- Added the Kyrophyte Gun*
-- Added the Kyrophyte Longbow*
-
-July 18, 2019:
-- Added Vulcrain Bow
-- Added Vulcrain Staff
-- Added Vulcrain Helmet
-- Added Vulcrain Mask
-- Added Vulcrain Headgear (sprite is temporary)
-- Added Vulcrain Breastplate (sprite is temporary)
-- Added Vulcrain Leggings (sprite is temporary)
-- Adjusted some of the items' sell prices
