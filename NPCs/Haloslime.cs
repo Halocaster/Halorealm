@@ -9,7 +9,7 @@ namespace Halorealm.NPCs
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Haloslime");
-            Main.npcFrameCount[npc.type] = 2;
+            Main.npcFrameCount[npc.type] = Main.npcFrameCount[NPCID.BlueSlime];
         }
 
         public override void SetDefaults()
@@ -18,10 +18,11 @@ namespace Halorealm.NPCs
             npc.width = 32;
             npc.height = 32;
             npc.aiStyle = 1; //make a unique AI sometime
+            aiType = NPCID.BlueSlime;
             npc.knockBackResist = 90f;
             npc.alpha = 175;
             npc.defense = 2;
-            npc.value = 25f;
+            npc.value = Item.buyPrice(0, 0, 10, 0);      
             npc.lifeMax = 125;
             npc.buffImmune[BuffID.OnFire] = true;
             npc.buffImmune[BuffID.Frostburn] = true;
@@ -33,6 +34,14 @@ namespace Halorealm.NPCs
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
         {
             return SpawnCondition.Overworld.Chance * 0.2f;
+        }
+
+        public override void NPCLoot()
+        {
+            if (Main.rand.NextBool(50))
+            {
+                Item.NewItem(npc.getRect(), ItemID.Gel, 2);
+            }
         }
 
         public override void OnHitPlayer(Player target, int damage, bool crit)
