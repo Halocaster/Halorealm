@@ -14,15 +14,15 @@ namespace Halorealm.NPCs
 
         public override void SetDefaults()
         {
-            npc.damage = 7;
+            npc.damage = 30;
             npc.width = 32;
             npc.height = 32;
             npc.aiStyle = 1; //make a unique AI sometime
-            npc.knockBackResist = 1f;
+            npc.knockBackResist = 90f;
             npc.alpha = 175;
             npc.defense = 2;
             npc.value = 25f;
-            npc.lifeMax = 25;
+            npc.lifeMax = 125;
             npc.buffImmune[BuffID.OnFire] = true;
             npc.buffImmune[BuffID.Frostburn] = true;
             npc.buffImmune[BuffID.ShadowFlame] = true;
@@ -32,7 +32,7 @@ namespace Halorealm.NPCs
 
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
         {
-            return SpawnCondition.Overworld.Chance * 0.05f;
+            return SpawnCondition.Overworld.Chance * 0.2f;
         }
 
         public override void OnHitPlayer(Player target, int damage, bool crit)
@@ -40,7 +40,6 @@ namespace Halorealm.NPCs
             target.AddBuff(BuffID.OnFire, 60);
             target.AddBuff(BuffID.Frostburn, 60);
             target.AddBuff(BuffID.ShadowFlame, 60);
-        }
-        
+        }  
     }
 }
