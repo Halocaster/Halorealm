@@ -34,9 +34,7 @@ namespace Halorealm.Items.Vulcrain.Armor
 
         public override void UpdateArmorSet(Player player)
         {
-            player.setBonus = "5% increased damage" +
-                "n/3+ defense " +
-                "n/Increased life regeneration";
+            player.setBonus = "5% increased damage, +3 defense and increased life regen";
             player.allDamage += 0.05f;
             player.statDefense += 3;
             player.lifeRegen += 10;
