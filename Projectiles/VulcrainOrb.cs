@@ -18,7 +18,7 @@ namespace Halorealm.Projectiles
         {
             projectile.magic = true;
             projectile.width = 12;
-            projectile.height = 2;
+            projectile.height = 12;
             projectile.aiStyle = 29;  //change later
             aiType = ProjectileID.SapphireBolt; //change later
             projectile.timeLeft = 3600;
