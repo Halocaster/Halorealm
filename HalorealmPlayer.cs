@@ -7,10 +7,12 @@ namespace Halorealm
     public class HalorealmPlayer : ModPlayer
     {
         public bool vulcrainCharm;
+        public bool hellstoneCharm;
 
         public override void ResetEffects()
         {
             vulcrainCharm = false;
+            hellstoneCharm = false;
         }
 
         public override void OnHitNPC(Item item, NPC target, int damage, float knockback, bool crit)
@@ -18,6 +20,11 @@ namespace Halorealm
             if (vulcrainCharm)
             {
                 target.AddBuff(BuffID.Frostburn, 120);
+            }
+
+            if (hellstoneCharm)
+            {
+                target.AddBuff(BuffID.OnFire, 120);
             }
         }
 
@@ -27,6 +34,11 @@ namespace Halorealm
             {
                 target.AddBuff(BuffID.Frostburn, 120);
             }
+
+            if (hellstoneCharm)
+            {
+                target.AddBuff(BuffID.OnFire, 120);
+            }
         }
 
         public override void ModifyHitNPCWithProj(Projectile proj, NPC target, ref int damage, ref float knockback, ref bool crit, ref int hitDirection)
@@ -34,6 +46,11 @@ namespace Halorealm
             if (vulcrainCharm)
             {
                 target.AddBuff(BuffID.Frostburn, 120);
+            }
+
+            if (hellstoneCharm)
+            {
+                target.AddBuff(BuffID.OnFire, 120);
             }
         }
     }

@@ -23,7 +23,7 @@ namespace Halorealm.Items.Accessories
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.GetModPlayer<HalorealmPlayer>().vulcrainCharm = true;
+            player.GetModPlayer<HalorealmPlayer>().hellstoneCharm = true;
         }
 
         public override void AddRecipes()
