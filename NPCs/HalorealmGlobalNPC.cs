@@ -9,7 +9,7 @@ namespace Halorealm.NPCs
         {
             if (npc.lifeMax > 5 && npc.value > 0f) //edit to make it drop from enemies after killing EoC
             {
-                if (Main.rand.NextBool(5))
+                if (Main.rand.NextBool(2))
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("HalocraticEssence"));
                 }
