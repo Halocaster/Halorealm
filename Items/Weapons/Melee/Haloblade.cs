@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Halorealm.Items
+namespace Halorealm.Items.Weapons.Melee
 {
     public class Haloblade : ModItem
     {
