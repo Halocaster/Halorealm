@@ -31,6 +31,7 @@ namespace Halorealm.Items.Vulcrain
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod.ItemType("VulcrainBar"), 25);
+            recipe.AddIngredient(ItemID.FrostCore, 5);
             recipe.AddIngredient(ItemID.IceBlock, 50);
             recipe.AddIngredient(ItemID.Shiverthorn, 5);
             recipe.AddTile(TileID.TinkerersWorkbench);
