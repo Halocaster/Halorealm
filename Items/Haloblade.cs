@@ -29,14 +29,17 @@ namespace Halorealm.Items
             item.useTurn = true;
         }
 
-        /*public override void AddRecipes()
+        public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient();
+            recipe.AddIngredient(mod.ItemType("HalocraticEssence"), 50);
+            recipe.AddIngredient(mod.ItemType("VulcrainSword"));
+            recipe.AddIngredient(ItemID.Muramasa);
+            recipe.AddIngredient(ItemID.FieryGreatsword);
             recipe.AddTile(TileID.DemonAltar);
             recipe.SetResult(this);
             recipe.AddRecipe();
-        }*/
+        }
 
         // think of a recipe for this sword
 
