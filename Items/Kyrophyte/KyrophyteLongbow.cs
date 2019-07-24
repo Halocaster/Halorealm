@@ -8,8 +8,8 @@ namespace Halorealm.Items.Kyrophyte
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Vulcrain Bow");
-            Tooltip.SetDefault("");
+            DisplayName.SetDefault("Kyrophyte Longbow");
+            Tooltip.SetDefault("Damaages more than the bow, but slower");
         }
 
         public override void SetDefaults()
@@ -33,13 +33,13 @@ namespace Halorealm.Items.Kyrophyte
             item.useTurn = true;
         }
 
-        /*public override void AddRecipes()
+        public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod.ItemType("KyrophyteChunk"), 25);
             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
             recipe.AddRecipe();
-        }*/
+        }
     }
 }
