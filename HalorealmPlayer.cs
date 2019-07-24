@@ -8,11 +8,13 @@ namespace Halorealm
     {
         public bool vulcrainCharm;
         public bool hellstoneCharm;
+        public bool frostfireEmblem;
 
         public override void ResetEffects()
         {
             vulcrainCharm = false;
             hellstoneCharm = false;
+            frostfireEmblem = false;
         }
 
         public override void OnHitNPC(Item item, NPC target, int damage, float knockback, bool crit)
@@ -24,6 +26,12 @@ namespace Halorealm
 
             if (hellstoneCharm)
             {
+                target.AddBuff(BuffID.OnFire, 120);
+            }
+
+            if (frostfireEmblem)
+            {
+                target.AddBuff(BuffID.Frostburn, 120);
                 target.AddBuff(BuffID.OnFire, 120);
             }
         }
@@ -39,6 +47,12 @@ namespace Halorealm
             {
                 target.AddBuff(BuffID.OnFire, 120);
             }
+
+            if (frostfireEmblem)
+            {
+                target.AddBuff(BuffID.Frostburn, 120);
+                target.AddBuff(BuffID.OnFire, 120);
+            }
         }
 
         public override void ModifyHitNPCWithProj(Projectile proj, NPC target, ref int damage, ref float knockback, ref bool crit, ref int hitDirection)
@@ -50,6 +64,12 @@ namespace Halorealm
 
             if (hellstoneCharm)
             {
+                target.AddBuff(BuffID.OnFire, 120);
+            }
+
+            if (frostfireEmblem)
+            {
+                target.AddBuff(BuffID.Frostburn, 120);
                 target.AddBuff(BuffID.OnFire, 120);
             }
         }
