@@ -1,6 +1,6 @@
 displayName = Halocaster's Halorealm
 author = Halocaster
-version = 0.4.1
+version = 0.4.2
 homepage = https://forums.terraria.org/index.php?threads/halocasters-halorealm.81364/
 includeSource = false
 hideCode	= true
