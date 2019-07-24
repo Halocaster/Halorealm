@@ -40,9 +40,9 @@ namespace Halorealm.Projectiles
             }
         }
 
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public void OnHitNPCWithProj(Projectile proj, NPC target, ref int damage, ref float knockback, ref bool crit, ref int hitDirection)
         {
-            target.AddBuff(BuffID.Frostburn, 60);
+            target.AddBuff(BuffID.Frostburn, 120);
         }
 
         //add OnTileCollide projectile explosion later
