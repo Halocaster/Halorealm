@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace Halorealm.Items.Weapons.Magic
 {
-    class Aerocut
+    public class Aerocut : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Aerocut");
+            Tooltip.SetDefault("");
+        }
+
+        //add the SetDefaults hook
     }
 }
