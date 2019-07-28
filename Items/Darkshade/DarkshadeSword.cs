@@ -29,7 +29,16 @@ namespace Halorealm.Items.Darkshade
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
             item.useTurn = true;
-            item.scale += 0.1f;
+            item.scale += 0.05f;
+        }
+
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(mod.ItemType("DarkshadeBarFragment"), 12);
+            recipe.AddTile(TileID.Anvil);
+            recipe.SetResult(this);
+            recipe.AddRecipe();
         }
 
         public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
