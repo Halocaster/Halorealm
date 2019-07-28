@@ -36,7 +36,7 @@ namespace Halorealm.Items.Darkshade
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod.ItemType("DarkshadeBarFragment"), 12);
-            recipe.AddTile(TileID.Anvil);
+            recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
