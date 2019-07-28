@@ -16,7 +16,7 @@ namespace Halorealm.Items.Darkshade
 
         public override void SetDefaults()
         {
-            item.damage = 21;
+            item.damage = 47; //change later
             item.melee = true;
             item.width = 32;
             item.height = 32;
