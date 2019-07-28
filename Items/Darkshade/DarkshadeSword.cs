@@ -10,7 +10,8 @@ namespace Halorealm.Items.Darkshade
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Darkshade Sword");
-            Tooltip.SetDefault("'From the edge of unknown'");
+            Tooltip.SetDefault("'From the edge of unknown'\n" +
+                "Inflicts Darkshade Flames");
         }
 
         public override void SetDefaults()
@@ -29,6 +30,19 @@ namespace Halorealm.Items.Darkshade
             item.autoReuse = true;
             item.useTurn = true;
             item.scale += 0.1f;
+        }
+
+        public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
+        {
+            target.AddBuff(mod.BuffType("DarkshadeBurn"), 120);
+        }
+
+        public override void MeleeEffects(Player player, Rectangle hitbox)
+        {
+            if (Main.rand.NextBool(2))
+            {
+                Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, mod.DustType("DarkshadeBurn"));
+            }
         }
     }
 }
