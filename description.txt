@@ -6,15 +6,26 @@ I do not recommend to download this mod until it is released. (Some of the sprit
 I am making new items everyday without sprites. I'm looking for someone who will help me.
 
 Latest Changelogs: 
-v0.4.2
+v0.5.0 - The Darkshade Update
+- Created the initial Darkshade set (armor is not coded yet)
+- Created the Kyrophyte ranged weapon set
+- Added the Vulcrain Ore tile
+- Buffed the Gold Pickaxe
+- Added Aerocut and Aeroslice
+- Added Haloslime
+- Added Halocratic Essence, an important item included in the mod
+- Created a new buff called "Darkshade Flames"
+- Added Frostfire Emblem
+
+v0.4.2 - tModLoader update patch
 - Updated for tModLoader v0.11.3
 - Changed the Vulcrain Charm's recipe
 
-v0.4.1
+v0.4.1 - Minor patch
 - Changed the Vulcrain armor's tooltips
 - Added Vulcrain Charm
 
-v0.4.0
+v0.4.0 - Major patch
 - Buffed several weapons
 - Updated old placeholder sprites
 - Made new Vulcrain item sprites (armor sprites are placeholders)
