@@ -1,4 +1,4 @@
-displayName = Halocaster's Halorealm
+displayName = Halocaster's Halorealm: The Darkshade Update
 author = Halocaster
 version = 0.5.0
 homepage = https://forums.terraria.org/index.php?threads/halocasters-halorealm.81364/

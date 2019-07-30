@@ -1,4 +1,4 @@
-Halorealm is a brand new mod that offers a variety of powerful items and strong enemies to kill.
+Halorealm offers a wide variety of new items to get and strong monsters to kill. This mod aims to expand the gameplay of Terraria to make it more fun and enjoyable. This mod primarily focuses on adding new features, items, enemies and bosses to the game while keeping the vanilla experience for the players. The developer of the mod (Halocaster) is currently making pre-hardmode items and enemies. 
 
 This mod is currently W.I.P. and unfinished. Some of the items does not have 'recipes', 'AIs' or 'buy values'.
 I will add new items and eventually, enemies every day, but without sprites. I'm looking for someone to help me make this mod a reality.
@@ -10,12 +10,13 @@ v0.5.0 - The Darkshade Update
 - Created the initial Darkshade set (armor is not coded yet)
 - Created the Kyrophyte ranged weapon set
 - Added the Vulcrain Ore tile
-- Buffed the Gold Pickaxe
+- Vulcrain Ore generates upon creating a new world
 - Added Aerocut and Aeroslice
-- Added Haloslime
+- Added Haloslime, a slime enemy
 - Added Halocratic Essence, an important item included in the mod
 - Created a new buff called "Darkshade Flames"
 - Added Frostfire Emblem
+- Changed the Gold and Platinum pickaxes' tooltips (Special thank to IceCoffe)
 
 v0.4.2 - tModLoader update patch
 - Updated for tModLoader v0.11.3
