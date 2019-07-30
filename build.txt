@@ -5,3 +5,4 @@ homepage = https://forums.terraria.org/index.php?threads/halocasters-halorealm.8
 includeSource = false
 hideCode = true
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
+includePDB = true
