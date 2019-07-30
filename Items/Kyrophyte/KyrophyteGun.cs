@@ -34,7 +34,7 @@ namespace Halorealm.Items.Kyrophyte
             item.useTurn = true;
         }
 
-        /*public override void AddRecipes()
+        public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod.ItemType("KyrophyteChunk"), 25);
@@ -42,7 +42,7 @@ namespace Halorealm.Items.Kyrophyte
             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
             recipe.AddRecipe();
-        }*/
+        }
 
         public override bool ConsumeAmmo(Player player)
 		{
