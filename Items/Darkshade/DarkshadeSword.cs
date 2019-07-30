@@ -35,7 +35,7 @@ namespace Halorealm.Items.Darkshade
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(mod.ItemType("DarkshadeBarFragment"), 12);
+            recipe.AddIngredient(mod.ItemType("DarkshadeBar"), 12);
             recipe.AddTile(TileID.Anvils);
             recipe.SetResult(this);
             recipe.AddRecipe();
