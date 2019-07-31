@@ -6,17 +6,20 @@ I do not recommend to download this mod until it is released. (Some of the sprit
 I am making new items everyday without sprites. I'm looking for someone who will help me.
 
 Latest Changelogs: 
-v0.5.0 - The Darkshade Update
-- Created the initial Darkshade set (armor is not coded yet)
+v0.5.1 - The Kyrophyte Update (not released yet)
 - Created the Kyrophyte ranged weapon set
 - Added the Vulcrain Ore tile
 - Vulcrain Ore generates upon creating a new world
 - Added Aerocut and Aeroslice
 - Added Haloslime, a slime enemy
+
+v0.5.0 - The Darkshade Update
+- Created the initial Darkshade set (armor is not coded yet)
 - Added Halocratic Essence, an important item included in the mod
 - Created a new buff called "Darkshade Flames"
 - Added Frostfire Emblem
 - Changed the Gold and Platinum pickaxes' tooltips (Special thank to IceCoffe)
+- Made sprites for the items without sprites
 
 v0.4.2 - tModLoader update patch
 - Updated for tModLoader v0.11.3
