@@ -31,7 +31,7 @@ namespace Halorealm.Dusts
             {
                 strength = 1f;
             }
-            Lighting.AddLight(dust.position, 0.1f * strength, 0.2f * strength, 0.7f * strength);
+            Lighting.AddLight(dust.position, 0.1f * strength, 0.1f * strength, 0.1f * strength);
             return false;
         }
 

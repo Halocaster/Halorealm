@@ -11,13 +11,13 @@ namespace Halorealm.Items.Accessories
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Hellstone Charm");
+            DisplayName.SetDefault("Frostfire Charm");
             Tooltip.SetDefault("Attacks inflict Frostburn and Fire");
         }
 
         public override void SetDefaults()
         {
-            item.color = Color.MediumVioletRed;
+            item.color = Color.Violet;
             item.width = 30;
             item.height = 28;
             item.value = Item.sellPrice(0, 5, 0, 0);

@@ -18,7 +18,7 @@ namespace Halorealm.Items.Darkshade
 
         public override void SetDefaults()
         {
-            item.color = Color.Black;
+            item.color = Color.Gray;
             item.damage = 20; //change if too op
             item.ranged = true;
             item.noMelee = true;

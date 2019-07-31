@@ -16,6 +16,7 @@ namespace Halorealm.Items.Darkshade
         {
             item.damage = 44; //change if too op
             item.magic = true;
+            item.alpha = 125;
             item.noMelee = true;
             item.mana = 10;
             item.shoot = mod.ProjectileType("TheShadow"); //make the projectile pierce into enemies

@@ -22,7 +22,7 @@ namespace Halorealm.Projectiles
             projectile.ranged = true;           
             projectile.penetrate = 7;           
             projectile.timeLeft = 600;      
-            projectile.alpha = 175;        
+            projectile.alpha = 100;        
             projectile.light = 0.05f;           
             projectile.ignoreWater = true;
             projectile.tileCollide = true;          

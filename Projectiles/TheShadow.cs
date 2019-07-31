@@ -18,9 +18,9 @@ namespace Halorealm.Projectiles
             projectile.height = 40;
             projectile.friendly = true;
             projectile.magic = true;
-            projectile.ignoreWater = true;
-            projectile.tileCollide = false;
-            projectile.alpha = 175;
+            projectile.ignoreWater = false;
+            projectile.tileCollide = true;
+            projectile.alpha = 100;
             projectile.penetrate = 7;
             projectile.aiStyle = 0;
         }

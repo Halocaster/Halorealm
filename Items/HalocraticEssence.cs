@@ -9,7 +9,7 @@ namespace Halorealm.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("HalocraticEssence");
+            DisplayName.SetDefault("Halocratic Essence");
             Tooltip.SetDefault("");
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(5, 4));
             ItemID.Sets.AnimatesAsSoul[item.type] = true;

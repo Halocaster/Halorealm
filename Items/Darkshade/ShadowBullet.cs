@@ -24,7 +24,7 @@ namespace Halorealm.Items.Darkshade
             item.value = Item.sellPrice(0, 0, 10, 0); //change later
             item.rare = 3;
             item.shoot = mod.ProjectileType("ShadowBullet");   
-            item.shootSpeed = 19f;                
+            item.shootSpeed = 24f;                
             item.ammo = AmmoID.Bullet;             
         }
 

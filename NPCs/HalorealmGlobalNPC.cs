@@ -6,14 +6,15 @@ namespace Halorealm.NPCs
 {
     public class HalorealmGlobalNPC : GlobalNPC
     {
+        public override bool InstancePerEntity => true;
         public bool darkshadeBurn;
-
+        
         public override void ResetEffects(NPC npc)
         {
             darkshadeBurn = false;
         }
 
-        public override void UpdateLifeRegen(NPC npc, ref int damage)
+        public void UpdateBadLifeRegen(NPC npc, ref int damage)
         {
             if (darkshadeBurn)
             {
@@ -33,7 +34,7 @@ namespace Halorealm.NPCs
         {
             if (npc.lifeMax > 5 && npc.value > 0f) //edit to make it drop from enemies after killing EoC
             {
-                if (Main.rand.NextBool(2))
+                if (Main.rand.NextBool(8))
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("HalocraticEssence"));
                 }
@@ -46,7 +47,7 @@ namespace Halorealm.NPCs
             {
                 if (Main.rand.Next(4) < 3)
                 {
-                    int dust = Dust.NewDust(npc.position - new Vector2(2f, 2f), npc.width + 4, npc.height + 4, mod.DustType("DarkshadeBurn"), npc.velocity.X * 0.4f, npc.velocity.Y * 0.4f, 100, default(Color), 3.5f);
+                    int dust = Dust.NewDust(npc.position - new Vector2(2f, 2f), npc.width + 4, npc.height + 4, mod.DustType("DarkshadeBurn"), npc.velocity.X * 0.4f, npc.velocity.Y * 0.4f, 100, default, 3.5f);
                     Main.dust[dust].noGravity = true;
                     Main.dust[dust].velocity *= 1.8f;
                     Main.dust[dust].velocity.Y -= 0.5f;
