@@ -17,7 +17,7 @@ namespace Halorealm.Items.Accessories
 
         public override void SetDefaults()
         {
-            item.color = Color.Violet;
+            item.color = Color.DarkViolet;
             item.width = 30;
             item.height = 28;
             item.value = Item.sellPrice(0, 5, 0, 0);

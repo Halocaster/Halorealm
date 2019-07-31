@@ -14,8 +14,8 @@ namespace Halorealm.Projectiles
 
         public override void SetDefaults()
         {
-            projectile.width = 40;
-            projectile.height = 40;
+            projectile.width = 30;
+            projectile.height = 30;
             projectile.friendly = true;
             projectile.magic = true;
             projectile.ignoreWater = false;
@@ -43,11 +43,6 @@ namespace Halorealm.Projectiles
         public void OnHitNPCWithProj(Projectile proj, NPC target, ref int damage, ref float knockback, ref bool crit, ref int hitDirection)
         {
             target.AddBuff(mod.BuffType("DarkshadeBurn"), 120);
-        }
-
-        public override Color? GetAlpha(Color lightColor)
-        {
-            return Color.Black;
         }
     }
 }
