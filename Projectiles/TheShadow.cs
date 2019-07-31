@@ -9,7 +9,7 @@ namespace Halorealm.Projectiles
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("The Shadow");
-            Main.projFrames[projectile.type] = 5;
+            Main.projFrames[projectile.type] = 4;
         }
 
         public override void SetDefaults()
