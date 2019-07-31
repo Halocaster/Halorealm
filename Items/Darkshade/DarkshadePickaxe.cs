@@ -17,8 +17,8 @@ namespace Halorealm.Items.Darkshade
         {
             item.damage = 13;
             item.melee = true;
-            item.width = 32;
-            item.height = 32;
+            item.width = 34;
+            item.height = 34;
             item.useTime = 23;
             item.useAnimation = 23;
             item.pick = 120;
