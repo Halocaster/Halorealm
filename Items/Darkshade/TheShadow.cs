@@ -20,8 +20,8 @@ namespace Halorealm.Items.Darkshade
             item.mana = 10;
             item.shoot = mod.ProjectileType("TheShadow"); //make the projectile pierce into enemies
             item.shootSpeed = 24f;  //change if the projectile moves too fast or too slow :)
-            item.width = 46;
-            item.height = 46;
+            item.width = 30;
+            item.height = 30;
             item.useTime = 20; //change
             item.useAnimation = 20;  //change
             item.useStyle = 5;
