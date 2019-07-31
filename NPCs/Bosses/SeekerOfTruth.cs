@@ -5,6 +5,7 @@ using Terraria.ModLoader;
 
 namespace Halorealm.NPCs.Bosses
 {
+    //[AutoloadBossHead]
     public class SeekerOfTruth : ModNPC
     {
         public override string Texture => "Terraria/NPC_" + NPCID.AncientCultistSquidhead;
