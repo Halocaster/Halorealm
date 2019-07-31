@@ -1,4 +1,5 @@
-﻿using Terraria;
+﻿using Microsoft.Xna.Framework;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -6,6 +7,8 @@ namespace Halorealm.Items.Accessories
 {
     public class FrostfireEmblem : ModItem
     {
+        public override string Texture => "Terraria/Item_" + ItemID.LavaCharm; //add sprite latuhh
+
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Hellstone Charm");
@@ -14,6 +17,7 @@ namespace Halorealm.Items.Accessories
 
         public override void SetDefaults()
         {
+            item.color = Color.MediumVioletRed;
             item.width = 30;
             item.height = 28;
             item.value = Item.sellPrice(0, 5, 0, 0);
