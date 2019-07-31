@@ -7,6 +7,8 @@ namespace Halorealm.Items.Darkshade
 {
     public class Shadowshooter : ModItem
     {
+        public override string Texture => "Terraria/Item_" + ItemID.ChainGun; //add sprite latuhh
+
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Shadowshooter");
@@ -16,6 +18,7 @@ namespace Halorealm.Items.Darkshade
 
         public override void SetDefaults()
         {
+            item.color = Color.Black;
             item.damage = 20; //change if too op
             item.ranged = true;
             item.noMelee = true;
