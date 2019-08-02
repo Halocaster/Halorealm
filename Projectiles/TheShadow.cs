@@ -22,6 +22,7 @@ namespace Halorealm.Projectiles
             projectile.tileCollide = true;
             projectile.alpha = 100;
             projectile.penetrate = 7;
+            projectile.timeLeft = 300;
             projectile.aiStyle = 0;
         }
 

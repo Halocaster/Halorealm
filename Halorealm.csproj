@@ -26,6 +26,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Items\Armors\" />
+    <Folder Include="Items\Darkshade\Armor\" />
     <Folder Include="Items\Tools\" />
   </ItemGroup>
 </Project>
