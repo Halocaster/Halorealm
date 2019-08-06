@@ -25,7 +25,7 @@ namespace Halorealm.Items.Darkshade.Armor
 
         public override bool IsArmorSet(Item head, Item body, Item legs)
         {
-            return body.type == mod.ItemType("VulcrainBreastplate") && legs.type == mod.ItemType("VulcrainLeggings");
+            return body.type == mod.ItemType("DarkshadeBreastplate") && legs.type == mod.ItemType("DarkshadeLeggings");
         }
 
         public override void UpdateEquip(Player player)
