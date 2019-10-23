@@ -5,6 +5,8 @@ I will add new items and eventually, enemies every day, but without sprites. I'm
 I do not recommend to download this mod until it is released. (Some of the sprites are placeholders)
 I am making new items everyday without sprites. I'm looking for someone who will help me.
 
+(The latest version (0.5.0.1) is just a minor patch to build it for tModLoader 0.11.5)
+
 Latest Changelogs: 
 v0.5.1 - The Kyrophyte Update (not released yet)
 - Created the Kyrophyte ranged weapon set

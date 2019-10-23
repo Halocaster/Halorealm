@@ -1,6 +1,6 @@
 displayName = Halocaster's Halorealm: The Darkshade Update
 author = Halocaster
-version = 0.5.0
+version = 0.5.0.1
 homepage = https://forums.terraria.org/index.php?threads/halocasters-halorealm.81364/
 includeSource = false
 hideCode = true
